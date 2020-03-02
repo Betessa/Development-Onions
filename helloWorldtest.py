@@ -1,2 +1,3 @@
 import unittest
-expect "Hello World"
+expected ="Hello World"
+self.assertEqual(expected, print())
