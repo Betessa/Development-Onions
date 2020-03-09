@@ -12,3 +12,17 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
+      
+  <?php
+  //.atoum.php
+
+  use mageekguy\atoum;
+  use mageekguy\atoum\reports;
+
+  $coveralls = new reports\asynchronous\coveralls('src', 'myCoverallsProjectToken');
+  $coveralls->addWriter();
+  $runner->addReport($coveralls);
+
+  $script->addDefaultReport();
+
+  
