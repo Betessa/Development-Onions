@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/php-coveralls/tests" isTestSource="true" packagePrefix="PhpCoveralls\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/php-coveralls/src" isTestSource="false" packagePrefix="PhpCoveralls\" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/bin/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/symfony/config" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/symfony/filesystem" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/symfony/stopwatch" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/php-coveralls/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
