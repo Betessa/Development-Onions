@@ -21,5 +21,14 @@ jobs: # a collection of steps
           key: composer-v1-{{ checksum "composer.lock" }}
           paths:
             - vendor
-      - store_test_results:
-          path: test-results
+      - run:
+          shell: /bin/bash
+          command: |
+            mkdir -p phpunit-out
+            vendor/bin/phpunit --log-junit phpunit-out/junit.xml
+            echo "done"
+          when: always
+            - store_test_results:
+                path: phpunit-out
+            - store_artifacts:
+                path: phpunit-out
