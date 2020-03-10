@@ -28,7 +28,7 @@ jobs: # a collection of steps
             vendor/bin/phpunit --log-junit phpunit-out/junit.xml
             echo "done"
           when: always
-            - store_test_results:
+          - store_test_results:
                 path: phpunit-out
             - store_artifacts:
                 path: phpunit-out
