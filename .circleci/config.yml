@@ -21,3 +21,5 @@ jobs: # a collection of steps
           key: composer-v1-{{ checksum "composer.lock" }}
           paths:
             - vendor
+      - store_test_results:
+          path: test-results
