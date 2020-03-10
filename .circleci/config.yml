@@ -12,7 +12,18 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-      
+machine:
+  php:
+    version: 5.4.10
 
+## Customize dependencies
+dependencies:
+  override:
+    - mkdir -p build/logs
+    - composer install --dev --no-interaction
+    - sed -i 's/^;//' ~/.phpenv/versions/$(phpenv global)/etc/conf.d/xdebug.ini
 
-  
+## Customize test commands
+test:
+  override:
+    - phpunit -c phpunit.xml.dist
